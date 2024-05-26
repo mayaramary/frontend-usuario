@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+body
+{
+  background-color: #f5f5f5;
+  margin-top: 36px;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: space-between;
+  top: 140px;
+  left: 128px;
+  color:#495057;
+}
+
+.icone-trash{
+  display: grid;
+  justify-content: end;
+}
+
+.modal{
+  background-color: #FFFFFF;
+  width: 700px;
+  height: 399px;
+  top: 313px;
+  left: 370px;
+  border-radius: 8px;
+  border: 1px;
+
+}
+.cad-nome{
+padding: 10px;
+}
+.cad-email{
+padding: 10px;
+
+}
+.btn-cadastro{
+  display: flex;
+  right: 0;
+  padding: 5px;
+  justify-content: end;
+
+}
+
